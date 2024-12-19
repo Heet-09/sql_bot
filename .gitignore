@@ -1,0 +1,32 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+env/
+venv/
+*.env
+*.venv
+*.virtualenv
+Pipfile.lock
+
+# Jupyter Notebooks checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Streamlit-specific files
+.streamlit/
+*.state
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependencies or package lock
+requirements.txt.lock
